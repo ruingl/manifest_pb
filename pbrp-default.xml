@@ -123,4 +123,25 @@
 
     <!-- LAST: Remove unused projects for minimal manifest -->
     <include name="remove-minimal.xml"/>
+
+    <!-- LAST: Remove unused projects for minimal manifest -->
+    <include name="remove-minimal.xml"/>
+
+    <remote name="ruingl"
+            fetch="https://github.com/ruingl/" />
+
+    <project path="device/infinix/x6531"
+             name="android_device_infinix_Infinix-X6531i"
+             remote="ruingl"
+             revision="android-12.1" />
+
+    <project path="vendor/kpoc/x6531"
+             name="android_vendor_kpoc_X6531"
+             remote="ruingl"
+             revision="android-12.1" />
+
+    <project path="kernel/infinix/x6531"
+             name="android_device_infinix_X6531-kernel"
+             remote="ruingl"
+             revision="android-12.1" />
 </manifest>
