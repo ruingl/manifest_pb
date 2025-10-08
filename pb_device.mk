@@ -9,9 +9,9 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_BRAND := Infinix
-PRODUCT_DEVICE := X6531
+PRODUCT_DEVICE := x6531
 PRODUCT_NAME := pb_x6531
 PRODUCT_MANUFACTURER := INFINIX
 PRODUCT_MODEL := Infinix X6531
-BOARD_VENDOR := infinix
-TARGET_VENDOR := infinix
+BOARD_VENDOR := kpoc
+TARGET_VENDOR := kpoc
